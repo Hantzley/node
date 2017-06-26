@@ -3,7 +3,7 @@ settings
 settings.txt
 
 node_modules/
-package-lost.json
+package-lock.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
