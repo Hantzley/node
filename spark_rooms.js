@@ -31,3 +31,7 @@ request(options, function (error, response, body) {
 function tweet(data){
   console.log(data)
 }
+
+var jsonObj = { sessions : [ "AMERICAS", "EMEAR", "APJGC" ] }
+
+
