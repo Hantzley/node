@@ -1,9 +1,11 @@
 var auth_token = 'Bearer ' + process.env.SPARK_TOKEN;
 
+var api_url = 'https://api.ciscospark.com/v1/rooms'
+
 var request = require("request");
 
 var options = { method: 'GET',
-  url: 'https://api.ciscospark.com/v1/rooms',
+  url: api_url,
   headers:
    {
      'cache-control': 'no-cache',
