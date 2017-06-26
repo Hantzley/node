@@ -32,6 +32,8 @@ function tweet(data){
   console.log(data)
 }
 
-var jsonObj = { sessions : [ "AMERICAS", "EMEAR", "APJGC" ] }
+var jsonObj = { regions : [ "AMERICAS", "EMEAR", "APJGC" ] }
+
+
 
 
