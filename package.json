@@ -1,0 +1,27 @@
+{
+  "name": "hantznode",
+  "version": "1.0.0",
+  "description": "Node test script",
+  "main": "spark_rooms.js",
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hantzley/node.git"
+  },
+  "keywords": [
+    "node",
+    "spark"
+  ],
+  "author": "Hantzley Tauckoor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hantzley/node/issues"
+  },
+  "homepage": "https://github.com/Hantzley/node#readme"
+}
