@@ -4,13 +4,13 @@
   Description: Test script to get Spark room list
 */
 
-var auth_token = 'Bearer ' + process.env.SPARK_TOKEN;
+const auth_token = 'Bearer ' + process.env.SPARK_TOKEN;
 
-var api_url = 'https://api.ciscospark.com/v1/rooms'
+const api_url = 'https://api.ciscospark.com/v1/rooms'
 
-var request = require("request");
+const request = require("request");
 
-var options = { method: 'GET',
+const options = { method: 'GET',
   url: api_url,
   headers:
    {
@@ -31,9 +31,3 @@ request(options, function (error, response, body) {
 function tweet(data){
   console.log(data)
 }
-
-var jsonObj = { regions : [ "AMERICAS", "EMEAR", "APJGC" ] }
-
-
-
-
