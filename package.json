@@ -4,6 +4,7 @@
   "description": "Node test script",
   "main": "spark_rooms.js",
   "dependencies": {
+    "ciscospark": "^1.1.6",
     "request": "^2.81.0"
   },
   "devDependencies": {},
