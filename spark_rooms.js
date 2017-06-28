@@ -5,9 +5,7 @@
 */
 
 const auth_token = 'Bearer ' + process.env.SPARK_TOKEN;
-
 const api_url = 'https://api.ciscospark.com/v1/rooms'
-
 const request = require("request");
 
 const options = { method: 'GET',
