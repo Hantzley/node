@@ -13,6 +13,6 @@ const callback = function(request, response){
   response.end();
 }
 
-http.createServer(callback).listen(8080);
+http.createServer(callback).listen(port);
 
 console.log('Listening in port ' + port)
