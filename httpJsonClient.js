@@ -24,5 +24,12 @@ request(options, function (error, response, body) {
 });
 
 function tweet(data){
-  console.log(data)
+  //console.log(data)
+  console.log('Vendor : ', data['Vendor']);
+  console.log('HQ : ', data['HQ']);
+  console.log('Technologies :',data['Technologies']);
+
+  for (var tech in data['Technologies']){
+    console.log(data['Technologies'][tech]);
+  }
 }
