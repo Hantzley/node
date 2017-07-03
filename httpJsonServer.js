@@ -10,7 +10,7 @@ const port = 8080
 const jsonObj = {
   'Vendor':'Cisco',
   'HQ':'San Jose, CA',
-  'Technologies':['Routers','Switches','Servers','Software','Cloud','API','IOT','Optical','Automation']
+  'Technologies':['Routers','Switches','APs','Servers','Software','Cloud','API','IOT','Optical','Automation']
 }
 
 
