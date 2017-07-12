@@ -14,7 +14,7 @@ const options = { method: 'GET',
    {
      'cache-control': 'no-cache',
      'content-type': 'application/json; charset=utf-8',
-     max: '280',
+     max: '180',
      authorization: auth_token
    }
 };
