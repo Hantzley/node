@@ -1,6 +1,6 @@
 /*
   Author : Hantzley Tauckoor
-  Version: 1
+  Version: 2
   Description: Test script for REST API call
 */
 
